@@ -14,7 +14,7 @@ public class MultipleCatchBlocks {
             System.out.print("Enter second integer: ");
             int num2 = sc.nextInt();
 
-            int result = num1 / num2; // may throw ArithmeticException
+            int result = num1 / num2;
             System.out.println("Result: " + num1 + " / " + num2 + " = " + result);
 
         } catch (ArithmeticException e) {
